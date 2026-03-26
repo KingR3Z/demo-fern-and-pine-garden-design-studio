@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Mr JLB", rating: 5, text: "Alick and his team did an outstanding job transforming our front garden. The design exceeded all our expectations and the quality of work is exceptional. We’ve had many compliments from people passing by—it’s truly a standout feature of our home now.", date: "9 months ago" },
+    { name: "Morven West", rating: 5, text: "Working with Alick was a dream. He really listened to what I wanted and help me think differently and be braver. The end result is a spectacular garden oasis.  ", date: "2 years ago" },
+    { name: "Lucinda Lewis", rating: 5, text: "We are absolutely delighted with our garden. Alick and his team are extremely talented and professional. The entire process from the initial designs to the final delivery was thorough, expertly managed and stress free. Alick was patient and …  ", date: "2 years ago" },
+    { name: "Steve Bustin, Speech coach and speaker", rating: 5, text: "Alick at Fern and Pine has designed a stunning garden for us, taking in pretty much everything we had on our wish list but also taking it further, making suggestions that have resulted in a garden we love and is more beautiful than I could …  ", date: "4 years ago" },
+    { name: "PaulMM", rating: 5, text: "Alick and the team at Fern & Pine designed our garden for us in 2021 and we were very pleased with the result. After moving to a new home, we had a blank canvas from which to start and Alick created a garden that works for the whole family. …  ", date: "4 years ago" },
+    { name: "Jim Brown", rating: 5, text: "We wanted to say how extremely pleased we both are with the design you provided for our garden.  You listened to what we wanted for our space and also provided lots of insightful ideas we hadn’t thought of.  The result is beautiful and …  ", date: "3 years ago" },
+    { name: "Michelle O'Neill", rating: 5, text: "Having known and worked with Alick for many years, I cannot recommend him highly enough, both personally and professionally. Alick is passionate about the industry and committed to making his clients' ideas come to life by working closely …  ", date: "5 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
